@@ -1,0 +1,56 @@
+1. Two values of Boolean data type are "True" and "False" . We can just write them as True and False. 
+
+2. Three types of boolean operators are : AND, OR and NOT.
+
+3.       AND                             OR                        NOT
+   True and True : True           True or True : True         not True : False
+   True and False : False         True or False : True        not False : True
+   False and True : False         False or True : True
+   False and False : False        False or False : False
+
+4. (5 > 4) and (3 == 5) : False
+   not (5 > 4) : False
+   (5 > 4) or (3 == 5) : True 
+   not ((5 > 4) or (3 == 5)) : False
+   (True and True) and (True == False) : False
+   (not False) or (not True) : True
+
+5. Six comparison operators are : < , > , <= , >= , == and != .
+
+6. Equal to operator contains two '==' sign ,while assignment operators contains only one '=' sign.
+e.g 3==5 : this is an equal to operator and a=5 : this is an assignment operator.
+
+7. 1st block : spam = 0 
+   2nd block : if spam == 10:
+print(&#39;eggs&#39;)
+if spam &gt; 5:
+print(&#39;bacon&#39;)
+   3rd block : else:
+print(&#39;ham&#39;)
+print(&#39;spam&#39;)
+print(&#39;spam&#39;)
+
+8. spam = 0
+if spam==1:
+    print("Hello")
+elif spam==2:
+    print("Howdy")
+else :
+    print("Greetings!")
+
+9. We can press 'cntrl + C' to come out of the endless loop.
+
+10. The Python break statement stops the loop in which the statement is placed. 
+While a Python continue statement skips a single iteration in a loop.
+
+11. There is no difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop .
+
+12. for a in range(1,11):
+    print(a)
+
+   a=1
+while a<11:
+    print(a)
+    a=a+1
+
+13. bacon()
