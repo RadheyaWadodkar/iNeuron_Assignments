@@ -1,0 +1,68 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+* , 'hello', -87.8 , - , / , + , 6 
+
+Solution: Values are as follows: 'hello' , '-87.8' , '6' .
+          Expressions are as follows: '*' , '-' , '/' , '+' .
+
+2.What is the difference between string and variable?
+
+Solution: 
+String is a data type in python . It is basically characters wrapped in single/double quotes. Those characters can be anything alphanumeric,integer,etc.
+e.g. str1 = 'Hello World' , str1 is a string.
+While variable is kind of temporary memory location assigned to various objects which can be any kind of data types. 
+e.g. a = 100 , b = "Hello" . a,b are variables here.
+So, string is a data type while variable is a location to which various data types are assigned to.
+
+3. Describe three different data types.
+
+Solution:
+1) Tuples : It is an ordered collection of objects which is immutable. The objects are enclosed in parantheses in tuples. 
+   e.g. tup1 = ('Hii' , 100 , 'abc')
+2) Lists : It is an ordered collection of objects which is mutable. The objects are enclosed in square brackets in lists. 
+   e.g. list1 = [1 , 100 , "Hello"]
+3) Dictionaries : It is an unordered collection of objects which is mutable and contains key-value pairs. The objects are enclosed in curly brackets.
+   e.g. dict1 = { "key1" : "value1" , "key2" : "value2"}
+
+4. What is an expression made up of? What do all expressions do? 
+
+Solution:
+An Expression is a combination of values and functions that are combined and interpreted by the compiler to create a new value. 
+It is used to combine various values and data types to show some result. 
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement? 
+
+Solution:
+In programming language terminology, an “expression” is a combination of values and functions that are combined and interpreted by the compiler to create a new value, 
+as opposed to a “statement” which is just a standalone unit of execution and doesn't return anything.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Solution: 23
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam'*3 
+
+Solution: 'spam' + 'spamspam' ---> 'spamspamspam'
+          'spam'*3 ---> 'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Solution: There are some rules of defining variable, according to which variable should not start with a number. 
+Thats why 100 is an invalid variable and eggs is a valid one as variable can start with a character.
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+Solution: int() , float() and str() are the functions used to get the integer, floating-point number and string version of a value.
+          e.g. int(3.0) --> 3 , float(3) --> 3.0 and str(12) --> '12'.
+
+10. Why does this expression cause an error? How can you fix it?
+ ' I have eaten ' + 99 + 'burritos.'
+
+Solution: This will give an error because the data type of objects is different so that we cannot concatenate them. 
+          To solve this error, we can convert 99 which is int to string format and then we can concatenate them.
